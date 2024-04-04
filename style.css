@@ -25,6 +25,7 @@ body {
 .clock {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 
 
 
@@ -35,6 +36,7 @@ body {
     display: flex;
     align-items: center;
     gap: 50px;
+    
 }
 
 .clock span:not(:last-child)::after{
